@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open Me ❤️</title>
+
+<style>
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#ff758c,#ff7eb3);
+    font-family:Arial,sans-serif;
+}
+
+button{
+    padding:18px 35px;
+    font-size:24px;
+    border:none;
+    border-radius:50px;
+    background:white;
+    color:#ff4081;
+    font-weight:bold;
+    cursor:pointer;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+
+#message{
+    display:none;
+    text-align:center;
+    color:white;
+}
+
+h1{
+    font-size:50px;
+}
+
+p{
+    font-size:28px;
+}
+</style>
+</head>
+
+<body>
+
+<button id="openBtn" onclick="showLove()">
+💌 Open Me
+</button>
+
+<div id="message">
+<h1>❤️ I Love You ❤️</h1>
+<p>You make my world brighter! ✨</p>
+</div>
+
+<script>
+function showLove(){
+    document.getElementById("openBtn").style.display="none";
+    document.getElementById("message").style.display="block";
+}
+</script>
+
+</body>
+</html>
