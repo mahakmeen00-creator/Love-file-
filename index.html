@@ -1,65 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Open Me ❤️</title>
-
-<style>
-body{
-    margin:0;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:linear-gradient(135deg,#ff758c,#ff7eb3);
-    font-family:Arial,sans-serif;
-}
-
-button{
-    padding:18px 35px;
-    font-size:24px;
-    border:none;
-    border-radius:50px;
-    background:white;
-    color:#ff4081;
-    font-weight:bold;
-    cursor:pointer;
-    box-shadow:0 10px 20px rgba(0,0,0,.2);
-}
-
-#message{
-    display:none;
-    text-align:center;
-    color:white;
-}
-
-h1{
-    font-size:50px;
-}
-
-p{
-    font-size:28px;
-}
-</style>
+<title>MN Craft Shop</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<button id="openBtn" onclick="showLove()">
-💌 Open Me
-</button>
+<header>
+    <h1>🌸 MN Craft Shop 🌸</h1>
+    <p>Handmade with Love 🤍</p>
 
-<div id="message">
-<h1>❤️ I Love You ❤️</h1>
-<p>You make my world brighter! ✨</p>
+    <h3>📦 Delivery Available in MZN Only</h3>
+
+    <a class="insta-btn" href="https://instagram.com/mn_craftshop" target="_blank">
+        💌 DM to Order on Instagram
+    </a>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🔑 Clay Keychains</h2>
+<p>Cute handmade keychains for gifts and bags.</p>
+<a href="keychains.html">View Collection</a>
 </div>
 
-<script>
-function showLove(){
-    document.getElementById("openBtn").style.display="none";
-    document.getElementById("message").style.display="block";
-}
-</script>
+<div class="card">
+<h2>🎨 Canvas Paintings</h2>
+<p>Beautiful handmade aesthetic paintings.</p>
+<a href="canvas.html">View Collection</a>
+</div>
 
-</body>
+<div class="card">
+<h2>🧸 Figurines</h2>
+<p>Handmade clay figurines crafted with love.</p>
+<a href="figurines.html">View Collection</a>
+</div>
+<div class="card">
+    <h2>📱 Clay Phone Hippers</h2>
+    <p>Cute handmade clay phone hippers to decorate your phone.</p>
+    <a href="phonehippers.html">View Collection</a>
+</div>
+</div>
+
+<footer>
+    <div class="card">
+    <h2>🌷 About MN Craft Shop</h2>
+    <p>
+        Welcome to <b>MN Craft Shop</b>! We create handmade clay keychains,
+        canvas paintings,  custom figurines , and many more things . You can customise anything as you like we will provide you everything with love and care.
+        We will make sure the quality is best .
+        Every product is uniquely crafted to make your gifts extra special.
+        Purchase for your loved ones.
+        
+    </p>
+</div>
+Made with ❤️ by MN Craft Shop
+</footer>
+<a href="https://instagram.com/mn_craftshop" class="floating-btn" target="_blank">
+📩
+</a>
+</body
 </html>
