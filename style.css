@@ -109,7 +109,23 @@ font-size:14px;
   transition: 0.3s;
 }
 
-.back-home:hover{
+.back-home:hover{.back-home {
+  display: inline-block;
+  margin: 20px;
+  padding: 12px 24px;
+  background: #ffb6c1;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.back-home:hover {
+  background: #E1306C;
+  color: white;
+  transform: scale(1.05);
+}
   background: #E1306C;
   color: white;
   transform: scale(1.05);
